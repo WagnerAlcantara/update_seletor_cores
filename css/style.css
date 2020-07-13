@@ -1,0 +1,21 @@
+body{
+  font-family: consolas;
+  padding: 20px;
+}
+.flex-row{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.label{
+  min-width: 120px;
+
+}
+.range{
+  min-width: 200px;
+}
+.text{
+  margin-left: 10px;
+  width: 50px;
+}

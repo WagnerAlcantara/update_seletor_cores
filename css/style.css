@@ -12,10 +12,17 @@ body{
   min-width: 120px;
 
 }
-.range{
-  min-width: 200px;
+
+.form-control-range{
+  max-width: 200px !important;
 }
 .text{
   margin-left: 10px;
   width: 50px;
+}
+.square{
+  width: 100px;
+  height: 100px;
+  border: 1px solid lightslategray;
+  margin-top: 20px;
 }

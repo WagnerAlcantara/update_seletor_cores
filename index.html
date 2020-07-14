@@ -4,27 +4,31 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/style.css">
-  <title>Seletor de Cores </title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"><title>Seletor de Cores </title>
+  
 </head>
 <body>
   <h1>Seletor de Cores</h1>
   <div class="flex-row">
     <span class="label">(R) Vermelho</span>
-    <input class="range"  type="range"/>
-    <input class="text" type="text" />
+    
+    <input type="range" class="form-control-range"  value="0" id="inputRangeRed" min="0" max="255"/>
+    <input id='inputTextRed'class="text"value="0" type="text" disabled/>
   </div>
   <div class="flex-row">
     <span class="label">(G) Green</span>
-    <input class="range" type="range"/>
-    <input class="text" type="text"/>
+    <input type="range" class="form-control-range"  value="0" id="inputRangeGreen" min="0" max="255"/>
+    <input id='inputTextGreen' class="text" value="0"type="text" disabled/>
   </div>
   <div class="flex-row">
     <span class="label">(B) Blue</span>
-    <input class="range"  type="range">
-<input class="text"type="text"/>
+    <input type="range" class="form-control-range"  value="0" id="inputRangeBlue" min="0" max="255"/>
+<input id='inputTextBlue' class="text" value="0" type="text" disabled/>
     </iput>
   </div>
+<div id='divSquare' class="square";>
 
+</div>
   <script src="./js/script.js"></script>
 </body>
 </html>
